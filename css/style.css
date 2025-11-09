@@ -143,12 +143,13 @@ section{
     color: var(--main-color);
     border-color: var(--main-color);
 }
+
 .home {
-    position: relative; /* necessário para a imagem absoluta funcionar */
+    position: relative;
     display: flex;
     align-items: center;
-    min-height: 100vh; /* garante que a seção tenha altura total da tela */
-    overflow: hidden; /* impede que a imagem vaze */
+    min-height: 100vh;
+    overflow: hidden; 
 }
 
 .home .profession-container{
@@ -225,7 +226,6 @@ section{
     border-left: 384px solid transparent;
 }
 
-/* container da imagem */
 .home-img {
     position: absolute;
     bottom: 0;
@@ -237,14 +237,46 @@ section{
     justify-content: flex-end;
 }
 
-/* imagem em si */
 .home-img img {
     height: 100%;
-    width: auto;
-    max-height: 100vh; /* evita ultrapassar a tela */
-    object-fit: contain; /* mantém a proporção sem corte */
-    transform: scaleX(-1); /* mantém o espelhamento */
+    width: 70%;
+    max-height: 100vh;
+    object-fit: contain;
     pointer-events: none;
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
+}
+
+span{
+    color: var(--main-color);
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.about-img img{
+    width: 40vw;
+}
+
+.heading{
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.about-container h2{
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-container h3{
+    font-size: 2rem;
+}
+
+.about-container p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
 }
