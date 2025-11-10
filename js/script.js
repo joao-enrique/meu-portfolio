@@ -35,3 +35,12 @@ window.onscroll = () => {
     menuIcon.classList.remove('fa-x');
     navBar.classList.remove('active');
 };
+
+/*======================== Dark light mode ================================*/
+let darkModeIcon = document.querySelector('#darkMode-icon');
+
+darkModeIcon.onclick = () => {
+    darkModeIcon.classList.toggle('fa-sun');
+    darkModeIcon.classList.toggle('fa-moon');
+    document.body.classList.toggle('dark-mode')
+};

@@ -19,6 +19,14 @@
     --shadow-color: #435663;
 }
 
+.dark-mode{
+    --bg-color: #363324;
+    --text-color: #ebebeb;
+    --main-color: #85af2a;
+    --white-color: #fdfdfd;
+    --shadow-color: #435663;
+}
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
