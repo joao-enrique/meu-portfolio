@@ -57,3 +57,31 @@ ScrollReveal().reveal('.home-content, .heading', { origin: 'top'});
 ScrollReveal().reveal('.home-img img, .services-container, portfolio-box, .contact form', { origin: 'bottom'});
 ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left'});
 ScrollReveal().reveal('.home-content h3, home-content p, .about-content', { origin: 'right'});
+
+/*======================== MODAIS DOS SERVIÇOS ================================*/
+const modals = document.querySelectorAll('.modal');
+const closeBtns = document.querySelectorAll('.close');
+
+// Abre modal correto conforme o botão clicado
+document.querySelectorAll('.services-box .btn').forEach((btn, index) => {
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (index === 0) document.getElementById('modal-web').style.display = 'flex';
+    if (index === 1) document.getElementById('modal-app').style.display = 'flex';
+    if (index === 2) document.getElementById('modal-games').style.display = 'flex';
+  });
+});
+
+// Fecha modal ao clicar no X
+closeBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    btn.closest('.modal').style.display = 'none';
+  });
+});
+
+// Fecha modal ao clicar fora do conteúdo
+window.addEventListener('click', (e) => {
+  modals.forEach(modal => {
+    if (e.target === modal) modal.style.display = 'none';
+  });
+});
