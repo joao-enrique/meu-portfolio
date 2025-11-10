@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 *{
     margin: 0;
@@ -8,22 +8,22 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "VT323", monospace;
 }
 
 :root{
-    --bg-color: #f8f7f0;
+    --bg-color: #EEEEEE;
     --text-color: #333;
-    --main-color: #caba9d;
+    --main-color: #F87B1B;
     --white-color: #fdfdfd;
-    --shadow-color: #C5C7BC;
+    --shadow-color: #11224E;
 }
 
 .dark-mode{
-    --bg-color: #525251;
+    --bg-color: #4e4e4e;
     --text-color: #ebebeb;
-    --main-color: #f8f7f0;
-    --white-color: #3b3b3b;
+    --main-color: #11224E;
+    --white-color: #fdfdfd;
     --shadow-color: #435663;
 }
 
