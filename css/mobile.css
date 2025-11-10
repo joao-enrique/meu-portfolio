@@ -12,18 +12,18 @@
 }
 
 :root{
-    --bg-color: #FFF8D4;
+    --bg-color: #f8f7f0;
     --text-color: #333;
-    --main-color: #A3B087;
+    --main-color: #caba9d;
     --white-color: #fdfdfd;
-    --shadow-color: #435663;
+    --shadow-color: #C5C7BC;
 }
 
 .dark-mode{
-    --bg-color: #363324;
+    --bg-color: #525251;
     --text-color: #ebebeb;
-    --main-color: #85af2a;
-    --white-color: #fdfdfd;
+    --main-color: #f8f7f0;
+    --white-color: #3b3b3b;
     --shadow-color: #435663;
 }
 
