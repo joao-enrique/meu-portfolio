@@ -711,7 +711,7 @@ span{
     }
 
     .home .profession-box .profession:nth-child(1){
-        transform: rotate(-90deg) translate(-185px, -100px);
+        transform: rotate(-90deg) translate(-220px, -125px);
     }
 
     .home .profession-box .profession:nth-child(1) i{
@@ -723,11 +723,11 @@ span{
     }
 
     .home .profession-box .profession:nth-child(3){
-        transform: rotate(90deg) translate(-185px, -500px);
+        transform: rotate(90deg) translate(-185px, -530px);
     }
 
     .home .profession-box .profession:nth-child(4){
-        transform: rotate(180deg) translate(-140px, -335px);
+        transform: rotate(180deg) translate(-420px, -335px);
     }
 
     .home .profession-box .circle{
@@ -790,16 +790,19 @@ span{
     }
 
     .home .profession-box .profession:nth-child(1){
-        transform: rotate(-90deg) translate(-110px, -220px);
+        transform: rotate(-90deg) translate(-200px, -135px);
     }
+
     .home .profession-box .profession:nth-child(2){
-        transform: rotate(0deg) translate(5px, -335px);
+        transform: rotate(0deg) translate(0, -335px);
     }
+
     .home .profession-box .profession:nth-child(3){
-        transform: rotate(90deg) translate(-105px, -440px);
+        transform: rotate(90deg) translate(-187px, -520px);
     }
+
     .home .profession-box .profession:nth-child(4){
-        transform: rotate(180deg) translate(-210px, -335px);
+        transform: rotate(180deg) translate(-390px, -335px);
     }
 
     .contact form .input-box input{
