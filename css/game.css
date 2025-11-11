@@ -787,7 +787,7 @@ span{
     }
 
     .home .profession-box .profession:nth-child(1){
-        transform: rotate(-90deg) translate(-220px, -125px);
+        transform: rotate(-90deg) translate(-210px, -105px);
     }
 
     .home .profession-box .profession:nth-child(1) i{
@@ -799,11 +799,11 @@ span{
     }
 
     .home .profession-box .profession:nth-child(3){
-        transform: rotate(90deg) translate(-185px, -530px);
+        transform: rotate(90deg) translate(-210px, -525px);
     }
 
     .home .profession-box .profession:nth-child(4){
-        transform: rotate(180deg) translate(-420px, -335px);
+        transform: rotate(180deg) translate(-435px, -320px);
     }
 
     .home .profession-box .circle{
@@ -869,7 +869,7 @@ span{
     }
 
     .home .profession-box .profession:nth-child(1){
-        transform: rotate(-90deg) translate(-200px, -135px);
+        transform: rotate(-90deg) translate(-210px, -105px);
     }
 
     .home .profession-box .profession:nth-child(2){
@@ -877,11 +877,11 @@ span{
     }
 
     .home .profession-box .profession:nth-child(3){
-        transform: rotate(90deg) translate(-187px, -520px);
+        transform: rotate(90deg) translate(-210px, -525px);
     }
 
     .home .profession-box .profession:nth-child(4){
-        transform: rotate(180deg) translate(-390px, -335px);
+        transform: rotate(180deg) translate(-385px, -320px);
     }
 
     .contact form .input-box input{
