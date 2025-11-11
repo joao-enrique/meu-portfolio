@@ -690,6 +690,11 @@ span{
         padding-bottom: 7rem;
     }
 
+    .portfolio .portfolio-box .portfolio-layer h4{
+        font-size: 1.6rem;
+        font-style: bold;
+    }
+
     .contact{
         min-height: auto;
     }
@@ -771,7 +776,7 @@ span{
 
     .home .profession-container .profession-box{
         position: fixed;
-        top: 80%;
+        top: 65%;
         left: 0;
         border-radius: 0;
         width: 100%;
@@ -846,6 +851,9 @@ span{
 @media (max-width: 617px){
     .portfolio .portfolio-container{
         grid-template-columns: 1fr;
+    }
+    .portfolio .portfolio-box .portfolio-layer h4{
+        font-size: 2.6rem;
     }
 }
 
