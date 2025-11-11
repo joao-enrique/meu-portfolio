@@ -752,7 +752,7 @@ span{
     }
 
     .home{
-        padding: 0 3% 23rem;
+        padding: 0 3% 30rem;
         justify-content: center;
         text-align: center;
     }
@@ -865,7 +865,7 @@ span{
     }
 
     .home{
-        padding: 0 3% 10rem;
+        padding: 0 3% 30rem;
     }
 
     .home .profession-box .profession:nth-child(1){
