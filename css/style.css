@@ -241,7 +241,7 @@ section{
     transform: rotate(calc(360deg / 4 * var(--i)));
     transform-origin: 384px;
     background: var(--bg-color);
-    padding: 13rem 0;
+    padding: 13px 0;
     cursor: pointer;
 }
 
