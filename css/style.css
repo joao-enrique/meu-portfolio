@@ -241,12 +241,12 @@ section{
     transform: rotate(calc(360deg / 4 * var(--i)));
     transform-origin: 384px;
     background: var(--bg-color);
-    padding: 13px 0;
+    padding: 13rem 0;
     cursor: pointer;
 }
 
 .home .profession-box .profession:nth-child(1) i{
-    margin-right: 15px;;
+    margin-right: 15px;
 }
 
 .home .profession-box .profession:nth-child(2),
@@ -783,13 +783,13 @@ span{
     }
 
     .home .profession-box .profession{
-        padding: 0 13rem;
+        padding: 0 3rem;
         left: auto;
         transform-origin: 0;
     }
 
      .home .profession-box .profession:nth-child(1){
-        transform: rotate(-90deg) translate(-210px, -105px);
+        transform: rotate(-90deg) translate(-125px, -200px);
     }
 
     .home .profession-box .profession:nth-child(1) i{
@@ -801,11 +801,11 @@ span{
     }
 
     .home .profession-box .profession:nth-child(3){
-        transform: rotate(90deg) translate(-210px, -525px);
+        transform: rotate(90deg) translate(-95px, -445px);
     }
 
     .home .profession-box .profession:nth-child(4){
-        transform: rotate(180deg) translate(-435px, -320px);
+        transform: rotate(180deg) translate(-235px, -335px);
     }
 
     .home .profession-box .circle{
@@ -870,8 +870,12 @@ span{
         padding: 0 3% 30rem;
     }
 
-   .home .profession-box .profession:nth-child(1){
-        transform: rotate(-90deg) translate(-210px, -105px);
+    .home .profession-box .profession:nth-child(1){
+        transform: rotate(-90deg) translate(-105px, -220px);
+    }
+
+    .home .profession-box .profession:nth-child(1) i{
+        margin-right: 0;
     }
 
     .home .profession-box .profession:nth-child(2){
@@ -879,11 +883,11 @@ span{
     }
 
     .home .profession-box .profession:nth-child(3){
-        transform: rotate(90deg) translate(-210px, -525px);
+        transform: rotate(90deg) translate(-95px, -435px);
     }
 
     .home .profession-box .profession:nth-child(4){
-        transform: rotate(180deg) translate(-385px, -320px);
+        transform: rotate(180deg) translate(-225px, -335px);
     }
 
     .contact form .input-box input{
